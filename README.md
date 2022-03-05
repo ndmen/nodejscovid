@@ -4,13 +4,13 @@ This is Covid application on Node, Express and Postgres
 
 ## Installation
 
-Clone this code and install modules from package.json:
+Clone this repository and install modules from package.json:
 
 ```sh
 npm install
 ```
 
-Install PgAdmin and create database:
+Install Postgresql(PgAdmin) and create database:
 
 ```sh
 CREATE DATABASE covid;
@@ -45,4 +45,9 @@ GET http://localhost:4000/states/requests/1?size=5 <br/>
 
 <b>4. Get a request by request_id <br/></b>
 GET http://localhost:4000/states/request/1 <br/>
+
+## Screenshots
+
+See:
+https://docs.google.com/document/d/1snfFDRo-3iBVvEOdgy5Wh5enJmF7SmMnKGniOiZpNSs/edit?usp=sharing
 
