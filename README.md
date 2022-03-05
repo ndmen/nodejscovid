@@ -4,7 +4,7 @@ This is Covid application on Node, Express and Postgres
 
 ## Installation
 
-Clone this code and install modules:
+Clone this code and install modules from package.json:
 
 ```sh
 npm install
