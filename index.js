@@ -81,7 +81,6 @@ app.get("/states/request/:request_id", async (req, res) => {
     try {
       const {request_id} = req.params;
       const getRequest = await pool.query("SELECT * FROM requests WHERE request_id = $1",[request_id]);
-      
       res.json(getRequest.rows[0]);
     } catch (err) {
       console.error(err.message);
